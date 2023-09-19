@@ -2,8 +2,6 @@
 [![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
 ## Individual Project 1: Continuous Integration using GitHub Actions with RUFF linter
 
-![1 15_rust_built_python_tools](https://github.com/nogibjj/python-ruff-template/assets/58792/db5f7bda-a977-4c67-acbe-a70fe034fbdf)
-
 
 
 1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
