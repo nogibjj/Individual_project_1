@@ -3,15 +3,15 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest --nbval srcipt/*.ipynb
-	python -m pytest -vv --cov=src.lib
+	python -m pytest --nbval *.ipynb
+	python -m pytest -vv --cov= *.py
 
 format:	
-	black srcipt/*.py
-	nbqa black srcipt/*.ipynb 
+	black *.py
+	nbqa black *.ipynb 
 
 lint:
-	nbqa ruff srcipt/*.ipynb
-	ruff check srcript/*.py
+	nbqa ruff *.ipynb
+	ruff check *.py
 		
 all: install lint test format
