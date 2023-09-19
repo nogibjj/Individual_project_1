@@ -5,6 +5,7 @@ install:
 test:
 	python -m pytest -vv --cov=main --cov=mylib test_*.py test_*.ipynb
 
+
 format:	
 	black *.py 
 
