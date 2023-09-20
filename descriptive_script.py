@@ -1,30 +1,11 @@
 """
 Main cli or app entry point
 """
+# import lib
 import pandas as pd
-import matplotlib.pyplot as plt
 
-# define a function to provide descriptive statistics of a dataset
+file = "https://gist.githubusercontent.com/seankross/a412dfbd88b3db70b74b/raw/5f23f993cd87c283ce766e7ac6b329ee7cc2e1d1/mtcars.csv"
 
+data_frame = pd.read_csv(file)
 
-def desripStats(file):
-    # use panda to read csv file
-    df = pd.read_csv(file)
-
-    # quick glimpse of the data
-    print(df.head())
-
-    # check data information
-    print(df.info())
-
-    # check unique values for each colunm
-    print(df.nunique())
-
-    # plot a scatter graph
-    plt.scatter(df["wt"], df["mpg"])
-    plt.xlabel("Weight, lbs")
-    plt.ylabel("Miles per Gallon, miles")
-    plt.title("Miles per gallon changes with automible weight")
-    plt.show()
-
-    return df.describe()
+print(data_frame)
