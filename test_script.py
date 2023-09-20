@@ -20,16 +20,11 @@ def testScript():
 
     # assert min
     assert summar["minimum"] == data_frame.describe()["mpg"]["min"]
-
     # assert max
     assert summar["maximum"] == data_frame.describe()["mpg"]["max"]
 
     # assert mean
     assert summar["mean"] == round(data_frame.describe()["mpg"]["mean"], 3)
-
-    # assert visualization
-
-    pass
 
 
 if __name__ == "__main__":
