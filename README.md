@@ -1,5 +1,5 @@
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
+[![CI](https://github.com/nogibjj/Individual_project_1/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Individual_project_1/actions/workflows/cicd.yml)
 ## Individual Project 1: Continuous Integration using GitHub Actions with RUFF linter
 
 
