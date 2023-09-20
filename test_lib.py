@@ -41,7 +41,7 @@ def test_calcMean():
         "5f23f993cd87c283ce766e7ac6b329ee7cc2e1d1/mtcars.csv"
     )
     data_frame = lib.read_file(file)
-    assert round(data_frame.describe()["mpg"]["mean"], 3) == lib.findMean(
+    assert round(data_frame.describe()["mpg"]["mean"], 3) == lib.calcMean(
         data_frame["mpg"]
     )
 
