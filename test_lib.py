@@ -51,7 +51,7 @@ def test_visulize_figure():
 
 
 if __name__ == "__main":
-    test_read_file()
+    # test_read_file()
     test_findMin()
     test_findMax()
     test_calcMean()
