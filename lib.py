@@ -36,5 +36,9 @@ def calcMean(data):
     return round(total / len(data), 3)
 
 
-def visulize_figure(data):
-    pass
+def visulize_figure(data_frame):
+    plt.scatter(data_frame["wt"], data_frame["mpg"])
+    plt.xlabel("Weight, lbs")
+    plt.ylabel("Miles per Gallon, miles")
+    plt.title("Miles per gallon changes with automible weight")
+    plt.show()
