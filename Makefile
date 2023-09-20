@@ -13,5 +13,8 @@ format:
 lint:
 	nbqa ruff *.ipynb
 	ruff check *.py
+
+deploy:
+	# no rules for now
 		
 all: install lint test format
