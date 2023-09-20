@@ -11,7 +11,7 @@ def test_read_file():
         "5f23f993cd87c283ce766e7ac6b329ee7cc2e1d1/mtcars.csv"
     )
     data_frame = lib.read_file(file)
-    assert data_frame != None
+    assert data_frame != []
 
 
 def test_findMin():
