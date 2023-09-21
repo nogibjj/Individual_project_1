@@ -7,7 +7,6 @@
 ## Individual Project 1: Continuous Integration using GitHub Actions with RUFF linter
 
 ## Summary
----
 This is indivudual project for IDS706 Data Engineering. In the project, we created a python script, along with a jupyter notebook script to produce some descriptive statistics for a [dataset](https://gist.githubusercontent.com/seankross/a412dfbd88b3db70b74b/raw/5f23f993cd87c283ce766e7ac6b329ee7cc2e1d1/mtcars.csv). The goal is to achieve automatic continous integration on Github including instaling, linting, testing and formating.
 
 1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
