@@ -10,7 +10,6 @@ format:
 	black *.py 
 
 lint:
-	nbqa ruff *.ipynb
 	ruff check *.py
 
 deploy:
