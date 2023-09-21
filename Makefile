@@ -4,11 +4,10 @@ install:
 
 test:
 	python -m pytest --nbval *.ipynb
-	python -m pytest -vv --cov= *.py
+	python -m pytest -vv --cov= test_*.py
 
 format:	
-	black *.py
-	nbqa black *.ipynb 
+	black *.py 
 
 lint:
 	nbqa ruff *.ipynb
