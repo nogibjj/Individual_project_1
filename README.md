@@ -9,29 +9,16 @@
 ## Summary
 This is indivudual project for IDS706 Data Engineering. In the project, we created a python script, along with a jupyter notebook script to produce some descriptive statistics for a [dataset](https://gist.githubusercontent.com/seankross/a412dfbd88b3db70b74b/raw/5f23f993cd87c283ce766e7ac6b329ee7cc2e1d1/mtcars.csv). The goal is to achieve automatic continous integration on Github including instaling, linting, testing and formating.
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+## Project Structure
+* `MakeFile` contains automatic processes for installing, linting, testing and formating
+* `descriptive_script.py` includes python script code for producing descriptive statistics
+* `notebook_descriptive` includes python script and markdowns for descriptive statistics
+* `lib.py` stores all the necessary methods/functions shared between `descriptive_script.py` and `notebook_descriptive`
 
-Things included are:
 
-* `Makefile`
 
-* `Pytest`
 
-* `pandas`
 
-* `Ruff`:  
-
-Run `make lint` which runs `ruff check`.  You can find out more info on [Ruff here](https://github.com/astral-sh/ruff).
-
-* `Dockerfile`
-
-* `GitHub copilot`
-
-* `jupyter` and `ipython` 
-
-* A base set of libraries for devops and web
-
-* `githubactions`
 
 ## References
 
