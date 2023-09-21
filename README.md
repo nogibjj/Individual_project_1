@@ -11,9 +11,11 @@ This is indivudual project for IDS706 Data Engineering. In the project, we creat
 
 ## Project Structure
 * `MakeFile` contains automatic processes for installing, linting, testing and formating
+* `requirements.txt` includes pinned python packages used in this project
 * `descriptive_script.py` includes python script code for producing descriptive statistics
 * `notebook_descriptive` includes python script and markdowns for descriptive statistics
 * `lib.py` stores all the necessary methods/functions shared between `descriptive_script.py` and `notebook_descriptive`
+* `test_lib.py` and `test_script.py` test codes in script and lib using ruff 
 
 
 
