@@ -18,7 +18,7 @@ This is indivudual project for IDS706 Data Engineering. In the project, we creat
 * `test_lib.py` and `test_script.py` test codes in script and lib using ruff 
 
 ## Video Demo
-Watch the video to walk through the project. 
+Watch the [video](https://youtu.be/reEaAqqZ6xo) to walk through the project. 
 
 
 
