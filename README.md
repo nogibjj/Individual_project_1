@@ -1,5 +1,6 @@
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![Format](https://github.com/nogibjj/Individual_project_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Individual_project_1/actions/workflows/format.yml)
+[![Install](https://github.com/nogibjj/Individual_project_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Individual_project_1/actions/workflows/install.yml)
 
 ## Individual Project 1: Continuous Integration using GitHub Actions with RUFF linter
 
