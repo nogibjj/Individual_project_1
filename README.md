@@ -17,14 +17,8 @@ This is indivudual project for IDS706 Data Engineering. In the project, we creat
 * `lib.py` stores all the necessary methods/functions shared between `descriptive_script.py` and `notebook_descriptive`
 * `test_lib.py` and `test_script.py` test codes in script and lib using ruff 
 
-
-
-
-
-
-## References
-
-![1 1-function-essence-of-programming](https://github.com/nogibjj/python-ruff-template/assets/58792/f7f33cd3-cff5-4014-98ea-09b6a29c7557)
+## Video Demo
+Watch the video to walk through the project. 
 
 
 
